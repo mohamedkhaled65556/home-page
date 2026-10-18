@@ -19,8 +19,8 @@ export default function SectionOne() {
             <img src={img2} className="-mb-70"/>
             <div className="flex justify-between items-center pb-40">
                 <h1 className="text-8xl font-bold ml-45">Find the <br />best <span className="text-LightCoral">tallent</span></h1>
-                    <img src={img3} className="-mt-50 -mr-70"/>
-                <div className="w-111.25 h-28 m-20 mt-40 mr-90 text-xl">
+                    <img src={img3} className="-mt-50 -mr-65"/>
+                <div className="w-115 h-28 m-20 mt-40 mr-90 text-xl">
                     <p>Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
                 </div>
             </div>
