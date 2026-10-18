@@ -2,12 +2,15 @@ import img14 from "../assets/Group 14.svg"
 import img15 from "../assets/Oval.svg"
 import img16 from "../assets/Oval Copy 5.svg"
 import img17 from "../assets/Oval Copy 6.svg"
+import img6 from "../assets/Group 8 Copy.svg"
+import img7 from "../assets/Group 8 (3).svg"
 
 export default function SectionThree() {
     return (
         <section className="bg-DeepJungleGreen text-white font-Livvic">
-            <h1 className="text-6xl text-center p-60 pt-40 pb-20 font-bold">Delivering real results for top companies. Some of our <span className="text-RaptureBlue">success stories.</span></h1>
-            <div className="flex justify-center pb-40">
+            <img src={img6}/>
+            <h1 className="text-6xl text-center p-60 pt-10 pb-20 font-bold">Delivering real results for top companies. Some of our <span className="text-RaptureBlue">success stories.</span></h1>
+            <div className="flex justify-center pb-10">
                 <div className="ml-25">
                     <img src={img14} />
                     <p className="w-87.5 -ml-35 -mt-6 text-center text-lg">“The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</p>
@@ -36,6 +39,7 @@ export default function SectionThree() {
                     </div>
                 </div>
             </div>
+            <img src={img7} className="ml-auto"/>
         </section>
     )
 }

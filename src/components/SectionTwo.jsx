@@ -1,16 +1,21 @@
 import img11 from "../assets/Group 11.svg"
 import img12 from "../assets/Group 12.svg"
 import img13 from "../assets/Group 13.svg"
+import img4 from "../assets/Rectangle.svg"
+import img5 from "../assets/Group 8 (2).svg"
+
 export default function SectionTwo() {
     return (
         <section className="bg-SacramentoStateGreen text-white font-Livvic">
+            <img src={img4} className="pt-50 mb-20 ml-40"/>
             <div className="flex justify-between items-start">
-                <p className="w-200 h-36 pl-40 pt-70 text-6xl font-bold">Build & manage distributed teams like no one else.</p>
+                <p className="w-170 h-36 pl-40 text-6xl font-bold">
+                    Build & manage distributed teams like no one else.</p>
                 <div>
-                    <div className="flex mt-20">
+                    <div className="flex -mt-40">
                         <img className="mt-30 mr-5" src={img11} />
                         <div>
-                            <h1 className="pr-80 pt-40 text-2xl font-semibold text-LightCoral">Experienced Individuals</h1>
+                            <h1 className="mr-100 pt-40 text-2xl font-semibold text-LightCoral">Experienced Individuals</h1>
                             <p className="mt-10 w-111.25 text-lg opacity-80">Our network is made up of highly experienced professionals who are passionate about what they do.</p>
                         </div>
                     </div>
@@ -30,6 +35,7 @@ export default function SectionTwo() {
                     </div>
                 </div>
             </div>
+            <img src={img5} className="ml-auto -mt-70"/>
         </section>
     )
 }
