@@ -15,7 +15,7 @@ export default function SectionFive() {
                             <a>about</a>
                         </div>
                     </div>
-                    <div className="opacity-60">
+                    <div className="opacity-60 text-[15px] leading-7 font-medium">
                         <p className="w-40">
                             987 Hillcrest Lane
                             Irvine,CA
@@ -35,7 +35,7 @@ export default function SectionFive() {
                         <img src={twitter}/>
                     </div>
                     <div>
-                        <p className="flex opacity-60 mt-15 -ml-40">Copyright 2020. All Rights Reserved</p>
+                        <p className="flex opacity-60 mt-15 text-[15px] -ml-40 font-medium">Copyright 2020. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
